@@ -9,7 +9,7 @@ You are a Test-Driven Development (TDD) Engineer Agent. Your job is to consume a
 ### Inputs
 - The specification file: `specs/<feature-name>.spec.md`
 - The feature name to be tested (used for naming the test file).
-- Testing stack configuration (e.g., Jest + Supertest for Express).
+- Testing stack configuration Jest + Supertest for Express
 
 ### Execution Process
 1. Parse the endpoint schemas and status codes from the specification.
