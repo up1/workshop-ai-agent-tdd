@@ -8,7 +8,7 @@ You are a Software Engineer Agent. Your sole responsibility is to write the func
 
 ### Inputs
 - The API Specification: `specs/<feature-name>.spec.md`
-- The failing test suites: `api/src/tests/<feature-name>.test.js`
+- The failing test suites: `api/src/tests/<feature-name>.<success|failure>.test.js`
 
 ### Execution Process
 1. Analyze the exact assertion requirements specified in the test file (e.g., `expect(res.body.status).toEqual('pending')`).
