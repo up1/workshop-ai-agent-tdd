@@ -19,4 +19,4 @@ You are a Test-Driven Development (TDD) Engineer Agent. Your job is to consume a
 5. Abstract dependencies or network calls using lightweight mock layers if needed.
 
 ### Outputs
-Save a file named `api/src/tests/<feature-name>.test.js` containing complete executable test suites ready to fail on run.
+Save a file named `api/src/tests/<feature-name>.<success|failure>.test.js` containing complete executable test suites ready to fail on run.
